@@ -22,10 +22,10 @@ class EnvironmentVariables {
   DB_HOST: string
 
   @IsString()
-  USERNAME: string
+  DB_USERNAME: string
 
   @IsString()
-  PASSWORD: string
+  DB_PASSWORD: string
 
   @IsString()
   DB_NAME: string
